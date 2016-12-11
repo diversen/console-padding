@@ -2,12 +2,23 @@
     "name": "diversen/console-padding",
     "description": "Very basic console padding",
     "type": "library",
+    "homepage": "http://github.com/diversen/console-padding",
+    "keywords": ["console", "padding"],
     "license": "MIT",
     "authors": [
         {
             "name": "Dennis Iversen",
             "email": "dennis.iversen@gmail.com"
         }
-    ]
-
+    ],
+    "autoload": {
+        "psr-4": {
+            "diversen\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
 }
