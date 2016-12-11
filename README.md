@@ -8,6 +8,6 @@ Install:
 
 Usage: 
 
-    See [test.php](test.php)
+See [test.php](test.php)
 
 License: MIT
