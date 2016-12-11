@@ -1,4 +1,4 @@
-# Rook console
+# Console padding for PHP
 
 Some very basic console padding. 
 
