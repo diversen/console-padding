@@ -1,0 +1,13 @@
+{
+    "name": "diversen/console-padding",
+    "description": "Very basic console padding",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Iversen",
+            "email": "dennis.iversen@gmail.com"
+        }
+    ]
+
+}
