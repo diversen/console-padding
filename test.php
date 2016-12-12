@@ -8,8 +8,8 @@ use diversen\padding;
 $p = new padding();
 
 $ary = array(
-    array('1. column 1. ro', 'some details', 'andsome more details', '0'),
-    array('1. column 2. ro', 'andsome more details'),
+    array('Some text', 'and some more text', 'more and more detailts', 'and one more'),
+    array('A test', 'Another', 'and the last test'),
 );
 
 // Default
@@ -23,14 +23,14 @@ echo "\n";
 
 /*
 Yields: 
-  Default settings: 
 
-    1. column 1. ro  some details          andsome more details  0  
-    1. column 2. ro  andsome more details  
+Default settings:
+  Some text  and some more text  more and more detailts  and one more  
+  A test     Another             and the last test       
 
-  User defined settings:
+User defined settings:
+ | Some text | and some more text | more and more detailts | and one more | 
+ | A test    | Another            | and the last test      |
 
-   | 1. column 1. ro | some details         | andsome more details | 0 | 
-   | 1. column 2. ro | andsome more details | 
- * 
+
  */
