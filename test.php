@@ -1,11 +1,11 @@
 <?php
 
 // You don't need this if auto-loading is set correct up
-include_once "./padding.php";
+include_once "./Padding.php";
 
-use diversen\padding;
+use Diversen\Padding;
 
-$p = new padding();
+$p = new Padding();
 
 $ary = array(
     array('Some text', 'and some more text', 'more and more detailts', 'and one more'),

@@ -1,8 +1,8 @@
 <?php
 
-namespace diversen;
+namespace Diversen;
 
-class padding {
+class Padding {
     
     public $numColumns = 0;
     public $columnWidths = [];
